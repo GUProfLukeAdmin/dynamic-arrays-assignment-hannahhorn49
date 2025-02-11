@@ -47,7 +47,7 @@ void part2()
     // the Boolvector.capacity() part will return the number of bits the vector takes up
     // then if we divide it by 8 it gives the number of bytes
     // since 10,000 isn't divisible by 8 we use the ceiling function to round up
-    int boolMemoryusage = std::ceil(Boolvector.size() / 8.0) * sizeof(bool);
+    int boolMemoryusage = std::ceil(Boolvector.capacity() / 8.0);
 
     // calculate memory usage (in bytes) of char vector
     int charMemoryusage = Charvector.capacity() * sizeof(char);
