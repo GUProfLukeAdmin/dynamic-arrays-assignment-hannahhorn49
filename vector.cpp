@@ -17,7 +17,7 @@ void part1()
     }
 
     // after we add the elements, want to output the size and capicity of initial vector
-    std::cout << "After adding elements: Size = " << vec1.size() << ", Capicity = " << vec1.capacity() << std::endl;
+    std::cout << "After adding elements: Size = " << vec1.size() << ", Capacity = " << vec1.capacity() << std::endl;
 
     // next we want to remove half of the elements from original vector by resizing
     vec1.resize(vec1.size() / 2);
