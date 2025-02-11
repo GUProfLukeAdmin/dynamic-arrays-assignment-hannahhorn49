@@ -29,7 +29,7 @@ void part1()
     vec1.shrink_to_fit();
 
     // for the final time we display the size and capacity again
-    std::cout << "After shrink_to_fit(): Size =  " << vec1.size() << ", Capacity = " << vec1.capacity() << std::endl;
+    std::cout << "After shrink_to_fit(): Size = " << vec1.size() << ", Capacity = " << vec1.capacity() << std::endl;
 }
 
 void part2()
